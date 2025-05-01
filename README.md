@@ -42,15 +42,15 @@ Aqui estão alguns portais de dados que você podem explorar.
 - World Bank Open Data - https://data.worldbank.org/
 
 # Enunciado da fase 1
-- Procurem um conjunto de dados com, pelo menos, 1.000 linhas e 10 colunas, e que tenha um atributo alvo categórico ou numérico.
+1. Procurem um conjunto de dados com, pelo menos, 1.000 linhas e 10 colunas, e que tenha um atributo alvo categórico ou numérico.
 
-- Façam a carga no Orange Data Mining para ajudar na exploração.
+2. Façam a carga no Orange Data Mining para ajudar na exploração.
 
-- Transcrevam a síntese do conjunto de dados como apresentado em sua origem.
+3. Transcrevam a síntese do conjunto de dados como apresentado em sua origem.
 
-- Em até 3 parágrafos, expliquem o interesse em explorá-lo.
+4. Em até 3 parágrafos, expliquem o interesse em explorá-lo.
 
-- Sobre o conjunto de dados escolhido:
+5. Sobre o conjunto de dados escolhido:
 
    • Qual a finalidade do conjunto de dados?
   
@@ -58,7 +58,7 @@ Aqui estão alguns portais de dados que você podem explorar.
   
    • Qual o formato que ele é disponibilizado? (CSV, JSON, XLSX, etc)
 
-- Escolham pelo menos 10 colunas totalmente preenchidas (as mais importantes) e, para cada coluna (inclusive para a coluna alvo):
+6. Escolham pelo menos 10 colunas totalmente preenchidas (as mais importantes) e, para cada coluna (inclusive para a coluna alvo):
 
     • Qual o nome e o que representa?
   
@@ -75,11 +75,14 @@ Aqui estão alguns portais de dados que você podem explorar.
 Qual a oportunidade para um projeto de ciência de dados foi identificada? Justificar a resposta!
 
 # Enunciado da fase 2
-- Desenvolvam um processo de ciência de dados no Orange Data Mining, cobrindo:
+1. Desenvolvam um processo de ciência de dados no Orange Data Mining, cobrindo:
 
     • Exploração dos dados
+  
     • Escolha dos algoritmos de aprendizado para a modelagem (pelo menos 3 algoritmos)
+  
     • Preparação dos dados de acordo com as características dos algoritmos de aprendizado Escolhidos
+  
     • Execução dos experimentos de aprendizado e coleta das métricas
 
-- Relato dos experimentos e lições aprendidas.
+2. Relato dos experimentos e lições aprendidas.
