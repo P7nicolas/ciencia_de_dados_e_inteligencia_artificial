@@ -1,0 +1,30 @@
+Documentação das Atividades Feitas
+
+1 - Carregamento do Dados
+Os dados foram enviados para Data Table e Data Info.
+
+2 - Exploração Inicial dos Dados 
+Conectados ao Data Table, Pivot Table, Feature Statistics, Scatter Plot e Continuize.
+Scatter Plot: Plotou relações bivariadas, de ups e mortes.
+Pivot Table: Configurado com região como variável de linha e mortes como valor (agregação por soma).
+
+3. Preparação dos Dados
+Continuize: Transformou variáveis categóricas em numéricas para modelagem.
+Data Table (2): Visualizou os dados após a transformação do Continuize
+Select Rows ("mortes > 0"): Filtrou os dados para selecionar apenas registros com mortes maior que 0.
+Select Rows ("mortes = 0"): Filtrou registros com mortes igual a 0.
+Data Sampler: Amostrou 200 linhas dos dados com mortes > 0
+Data Sampler: Amostrou 200 linhas dos dados com mortes = 0
+Concatenate: Combinou os dois subconjuntos (200 linhas com mortes > 0 e 200 com mortes = 0), criando um dataset balanceado de 400 linhas.
+O dataset balanceado (400 linhas) foi enviado para Data Sampler (2)
+
+4. Divisão dos Dados para Treino e Teste
+Data Sampler(2) dividiu o dataset balanceado (400 linhas) em 80% para treino e 20% para teste.
+Dados de treino e teste foram enviados ao Test and Score.
+
+5. Configuração dos Modelos
+Linear Regression, Random Forest, Gradient Boosting
+Os learners foram enviados ao Test & Score para avaliação.
+
+6. Avaliação dos Modelos
+Test and Score avaliou os três modelos usando Cross-Validation (5 folds) nos dados balanceados (400 linhas).
